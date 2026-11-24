@@ -1,0 +1,3601 @@
+{
+ "n_questions": 1034,
+ "suite_dbs_per_db": {
+  "battle_death": 27,
+  "car_1": 59,
+  "concert_singer": 31,
+  "course_teach": 24,
+  "cre_Doc_Template_Mgt": 24,
+  "dog_kennels": 47,
+  "employee_hire_evaluation": 26,
+  "flight_2": 55,
+  "museum_visit": 34,
+  "network_1": 28,
+  "orchestra": 27,
+  "pets_1": 26,
+  "poker_player": 30,
+  "real_estate_properties": 31,
+  "singer": 25,
+  "student_transcripts_tracking": 54,
+  "tvshow": 24,
+  "voter_1": 26,
+  "world_1": 45,
+  "wta_1": 32
+ },
+ "systems": {
+  "C3": {
+   "EX": 0.7969052224371374,
+   "TS": 0.6847195357833655,
+   "lucky": 116,
+   "EX_pass": 824,
+   "lucky_share_of_EX_ci95": [
+    0.1407766990291262,
+    0.11869315016670845,
+    0.16619420026361542
+   ],
+   "lucky_cases": [
+    {
+     "q": 22,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 24,
+     "db": "concert_singer",
+     "failed_on": "concert_singerv5083.sqlite"
+    },
+    {
+     "q": 25,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 31,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 32,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 33,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 34,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 35,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 36,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 47,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 48,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 59,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 60,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 67,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 84,
+     "db": "pets_1",
+     "failed_on": "pets_1v5083.sqlite"
+    },
+    {
+     "q": 90,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 107,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 108,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 109,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 111,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 130,
+     "db": "car_1",
+     "failed_on": "car_1v50811.sqlite"
+    },
+    {
+     "q": 138,
+     "db": "car_1",
+     "failed_on": "car_1v50811.sqlite"
+    },
+    {
+     "q": 141,
+     "db": "car_1",
+     "failed_on": "car_1v50819.sqlite"
+    },
+    {
+     "q": 154,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 169,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 173,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 174,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 208,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 215,
+     "db": "flight_2",
+     "failed_on": "flight_2v5086.sqlite"
+    },
+    {
+     "q": 216,
+     "db": "flight_2",
+     "failed_on": "flight_2v5086.sqlite"
+    },
+    {
+     "q": 217,
+     "db": "flight_2",
+     "failed_on": "flight_2v50884.sqlite"
+    },
+    {
+     "q": 218,
+     "db": "flight_2",
+     "failed_on": "flight_2v50884.sqlite"
+    },
+    {
+     "q": 219,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 220,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 223,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 225,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 228,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 233,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 235,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 236,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 237,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 238,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 239,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 240,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 252,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 254,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 277,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 278,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv515nightpatch4.sqlite"
+    },
+    {
+     "q": 283,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5083735.sqlite"
+    },
+    {
+     "q": 288,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 293,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 294,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 329,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 333,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 336,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv515nightpatch3.sqlite"
+    },
+    {
+     "q": 346,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 360,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5081.sqlite"
+    },
+    {
+     "q": 363,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 365,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5081.sqlite"
+    },
+    {
+     "q": 366,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5081.sqlite"
+    },
+    {
+     "q": 373,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 374,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 407,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 408,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 453,
+     "db": "wta_1",
+     "failed_on": "wta_1v50815.sqlite"
+    },
+    {
+     "q": 465,
+     "db": "wta_1",
+     "failed_on": "wta_1v5080.sqlite"
+    },
+    {
+     "q": 483,
+     "db": "wta_1",
+     "failed_on": "wta_1v5083.sqlite"
+    },
+    {
+     "q": 484,
+     "db": "wta_1",
+     "failed_on": "wta_1v5083.sqlite"
+    },
+    {
+     "q": 486,
+     "db": "wta_1",
+     "failed_on": "wta_1v5085.sqlite"
+    },
+    {
+     "q": 488,
+     "db": "wta_1",
+     "failed_on": "wta_1v5080.sqlite"
+    },
+    {
+     "q": 501,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5083735.sqlite"
+    },
+    {
+     "q": 505,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5083735.sqlite"
+    },
+    {
+     "q": 516,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50810.sqlite"
+    },
+    {
+     "q": 521,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 522,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 529,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 530,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 539,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50812.sqlite"
+    },
+    {
+     "q": 558,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 559,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50812.sqlite"
+    },
+    {
+     "q": 560,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50812.sqlite"
+    },
+    {
+     "q": 562,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 573,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 610,
+     "db": "tvshow",
+     "failed_on": "tvshowv5081.sqlite"
+    },
+    {
+     "q": 626,
+     "db": "tvshow",
+     "failed_on": "tvshowv5080.sqlite"
+    },
+    {
+     "q": 712,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 736,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 737,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 738,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 739,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 742,
+     "db": "world_1",
+     "failed_on": "world_1v5082.sqlite"
+    },
+    {
+     "q": 743,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 747,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 754,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 764,
+     "db": "world_1",
+     "failed_on": "world_1v50816.sqlite"
+    },
+    {
+     "q": 765,
+     "db": "world_1",
+     "failed_on": "world_1v50816.sqlite"
+    },
+    {
+     "q": 766,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 767,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 842,
+     "db": "orchestra",
+     "failed_on": "orchestrav5080.sqlite"
+    },
+    {
+     "q": 860,
+     "db": "orchestra",
+     "failed_on": "orchestrav5080.sqlite"
+    },
+    {
+     "q": 892,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 893,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 896,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 897,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 898,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 900,
+     "db": "network_1",
+     "failed_on": "network_1v50810.sqlite"
+    },
+    {
+     "q": 912,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 918,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 930,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 931,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 936,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 939,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5081.sqlite"
+    },
+    {
+     "q": 941,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv508557.sqlite"
+    },
+    {
+     "q": 993,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv50815.sqlite"
+    },
+    {
+     "q": 1021,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    },
+    {
+     "q": 1022,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    }
+   ]
+  },
+  "Claude": {
+   "EX": 0.8056092843326886,
+   "TS": 0.6856866537717602,
+   "lucky": 124,
+   "EX_pass": 833,
+   "lucky_share_of_EX_ci95": [
+    0.148859543817527,
+    0.1263006707644943,
+    0.17464230338975423
+   ],
+   "lucky_cases": [
+    {
+     "q": 24,
+     "db": "concert_singer",
+     "failed_on": "concert_singerv5083.sqlite"
+    },
+    {
+     "q": 25,
+     "db": "concert_singer",
+     "failed_on": "concert_singerv5083.sqlite"
+    },
+    {
+     "q": 31,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 32,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 33,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 34,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 47,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 48,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 59,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 67,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 68,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 75,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 76,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 89,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 90,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 93,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 94,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 108,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 109,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 110,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 113,
+     "db": "car_1",
+     "failed_on": "car_1v5081.sqlite"
+    },
+    {
+     "q": 114,
+     "db": "car_1",
+     "failed_on": "car_1v5081.sqlite"
+    },
+    {
+     "q": 129,
+     "db": "car_1",
+     "failed_on": "car_1v50813.sqlite"
+    },
+    {
+     "q": 130,
+     "db": "car_1",
+     "failed_on": "car_1v50813.sqlite"
+    },
+    {
+     "q": 131,
+     "db": "car_1",
+     "failed_on": "car_1v5081529.sqlite"
+    },
+    {
+     "q": 138,
+     "db": "car_1",
+     "failed_on": "car_1v50811.sqlite"
+    },
+    {
+     "q": 154,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 173,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 174,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 177,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 208,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 210,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 212,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 213,
+     "db": "flight_2",
+     "failed_on": "flight_2v50810.sqlite"
+    },
+    {
+     "q": 221,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 222,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 224,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 228,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 231,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 232,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 233,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 234,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 235,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 236,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 237,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 238,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 245,
+     "db": "flight_2",
+     "failed_on": "flight_2v50812.sqlite"
+    },
+    {
+     "q": 251,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 252,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 253,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 254,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 277,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 278,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 283,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5083735.sqlite"
+    },
+    {
+     "q": 284,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5083735.sqlite"
+    },
+    {
+     "q": 293,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 294,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 322,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 333,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 334,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 345,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 346,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 356,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 363,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 364,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 365,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5081.sqlite"
+    },
+    {
+     "q": 366,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5081.sqlite"
+    },
+    {
+     "q": 373,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 374,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 380,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 407,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 408,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 452,
+     "db": "wta_1",
+     "failed_on": "wta_1v50815.sqlite"
+    },
+    {
+     "q": 463,
+     "db": "wta_1",
+     "failed_on": "wta_1v5080.sqlite"
+    },
+    {
+     "q": 464,
+     "db": "wta_1",
+     "failed_on": "wta_1v5080.sqlite"
+    },
+    {
+     "q": 483,
+     "db": "wta_1",
+     "failed_on": "wta_1v5083.sqlite"
+    },
+    {
+     "q": 484,
+     "db": "wta_1",
+     "failed_on": "wta_1v5083.sqlite"
+    },
+    {
+     "q": 485,
+     "db": "wta_1",
+     "failed_on": "wta_1v5085.sqlite"
+    },
+    {
+     "q": 498,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5080.sqlite"
+    },
+    {
+     "q": 501,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5083735.sqlite"
+    },
+    {
+     "q": 515,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50810.sqlite"
+    },
+    {
+     "q": 516,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50810.sqlite"
+    },
+    {
+     "q": 521,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 522,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 529,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 530,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 539,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50812.sqlite"
+    },
+    {
+     "q": 540,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50812.sqlite"
+    },
+    {
+     "q": 549,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50817.sqlite"
+    },
+    {
+     "q": 550,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50817.sqlite"
+    },
+    {
+     "q": 562,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 624,
+     "db": "tvshow",
+     "failed_on": "tvshowv5080.sqlite"
+    },
+    {
+     "q": 633,
+     "db": "tvshow",
+     "failed_on": "tvshowv515nightpatch2.sqlite"
+    },
+    {
+     "q": 634,
+     "db": "tvshow",
+     "failed_on": "tvshowv5081.sqlite"
+    },
+    {
+     "q": 712,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 713,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 736,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 737,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 738,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 739,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 742,
+     "db": "world_1",
+     "failed_on": "world_1v5082.sqlite"
+    },
+    {
+     "q": 744,
+     "db": "world_1",
+     "failed_on": "world_1v5081.sqlite"
+    },
+    {
+     "q": 746,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 747,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 765,
+     "db": "world_1",
+     "failed_on": "world_1v50816.sqlite"
+    },
+    {
+     "q": 766,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 767,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 843,
+     "db": "orchestra",
+     "failed_on": "orchestrav5080.sqlite"
+    },
+    {
+     "q": 892,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 893,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 896,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 897,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 900,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 901,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 912,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 913,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 930,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 931,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 940,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv508557.sqlite"
+    },
+    {
+     "q": 941,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv508557.sqlite"
+    },
+    {
+     "q": 1021,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    },
+    {
+     "q": 1022,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    },
+    {
+     "q": 1023,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    },
+    {
+     "q": 1031,
+     "db": "real_estate_properties",
+     "failed_on": "real_estate_propertiesv5080.sqlite"
+    }
+   ]
+  },
+  "DAIL": {
+   "EX": 0.8268858800773694,
+   "TS": 0.753384912959381,
+   "lucky": 76,
+   "EX_pass": 855,
+   "lucky_share_of_EX_ci95": [
+    0.08888888888888889,
+    0.07160608788137222,
+    0.10984949135465923
+   ],
+   "lucky_cases": [
+    {
+     "q": 7,
+     "db": "concert_singer",
+     "failed_on": "concert_singerv515patch4.sqlite"
+    },
+    {
+     "q": 22,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 23,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 32,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 36,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 47,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 48,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 58,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 59,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 60,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 77,
+     "db": "pets_1",
+     "failed_on": "pets_1v5081.sqlite"
+    },
+    {
+     "q": 83,
+     "db": "pets_1",
+     "failed_on": "pets_1v5083.sqlite"
+    },
+    {
+     "q": 105,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 107,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 108,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 109,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 131,
+     "db": "car_1",
+     "failed_on": "car_1v5081529.sqlite"
+    },
+    {
+     "q": 132,
+     "db": "car_1",
+     "failed_on": "car_1v5081529.sqlite"
+    },
+    {
+     "q": 138,
+     "db": "car_1",
+     "failed_on": "car_1v50811.sqlite"
+    },
+    {
+     "q": 154,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 158,
+     "db": "car_1",
+     "failed_on": "car_1v50811.sqlite"
+    },
+    {
+     "q": 173,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 174,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 208,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 212,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 216,
+     "db": "flight_2",
+     "failed_on": "flight_2v5086.sqlite"
+    },
+    {
+     "q": 224,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 233,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 239,
+     "db": "flight_2",
+     "failed_on": "flight_2v50813.sqlite"
+    },
+    {
+     "q": 240,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 243,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 244,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 252,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 256,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 277,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv515nightpatch4.sqlite"
+    },
+    {
+     "q": 278,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 284,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5083735.sqlite"
+    },
+    {
+     "q": 322,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 326,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 335,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv515nightpatch8.sqlite"
+    },
+    {
+     "q": 345,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 346,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 407,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 408,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 465,
+     "db": "wta_1",
+     "failed_on": "wta_1v5080.sqlite"
+    },
+    {
+     "q": 485,
+     "db": "wta_1",
+     "failed_on": "wta_1v5085.sqlite"
+    },
+    {
+     "q": 501,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5083735.sqlite"
+    },
+    {
+     "q": 512,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50821.sqlite"
+    },
+    {
+     "q": 521,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 522,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 545,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 562,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 624,
+     "db": "tvshow",
+     "failed_on": "tvshowv515nightpatch1.sqlite"
+    },
+    {
+     "q": 633,
+     "db": "tvshow",
+     "failed_on": "tvshowv5081.sqlite"
+    },
+    {
+     "q": 712,
+     "db": "world_1",
+     "failed_on": "world_1v5082.sqlite"
+    },
+    {
+     "q": 736,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 737,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 738,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 739,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 742,
+     "db": "world_1",
+     "failed_on": "world_1v5082.sqlite"
+    },
+    {
+     "q": 743,
+     "db": "world_1",
+     "failed_on": "world_1v5082.sqlite"
+    },
+    {
+     "q": 744,
+     "db": "world_1",
+     "failed_on": "world_1v5081.sqlite"
+    },
+    {
+     "q": 764,
+     "db": "world_1",
+     "failed_on": "world_1v50816.sqlite"
+    },
+    {
+     "q": 765,
+     "db": "world_1",
+     "failed_on": "world_1v50816.sqlite"
+    },
+    {
+     "q": 766,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 767,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 842,
+     "db": "orchestra",
+     "failed_on": "orchestrav5080.sqlite"
+    },
+    {
+     "q": 846,
+     "db": "orchestra",
+     "failed_on": "orchestrav5081.sqlite"
+    },
+    {
+     "q": 847,
+     "db": "orchestra",
+     "failed_on": "orchestrav5081.sqlite"
+    },
+    {
+     "q": 890,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 896,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 897,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 910,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 912,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 990,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 1023,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    }
+   ]
+  },
+  "DIN": {
+   "EX": 0.8152804642166345,
+   "TS": 0.7224371373307543,
+   "lucky": 96,
+   "EX_pass": 843,
+   "lucky_share_of_EX_ci95": [
+    0.11387900355871886,
+    0.0941634744961633,
+    0.13709772004128026
+   ],
+   "lucky_cases": [
+    {
+     "q": 6,
+     "db": "concert_singer",
+     "failed_on": "concert_singerv515patch4.sqlite"
+    },
+    {
+     "q": 7,
+     "db": "concert_singer",
+     "failed_on": "concert_singerv515patch4.sqlite"
+    },
+    {
+     "q": 22,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 24,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 25,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 31,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 32,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 42,
+     "db": "concert_singer",
+     "failed_on": "concert_singerv515nightpatch9.sqlite"
+    },
+    {
+     "q": 47,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 48,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 67,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 68,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 107,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 108,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 138,
+     "db": "car_1",
+     "failed_on": "car_1v50811.sqlite"
+    },
+    {
+     "q": 154,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 173,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 174,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 212,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 215,
+     "db": "flight_2",
+     "failed_on": "flight_2v5086.sqlite"
+    },
+    {
+     "q": 216,
+     "db": "flight_2",
+     "failed_on": "flight_2v5086.sqlite"
+    },
+    {
+     "q": 217,
+     "db": "flight_2",
+     "failed_on": "flight_2v50884.sqlite"
+    },
+    {
+     "q": 218,
+     "db": "flight_2",
+     "failed_on": "flight_2v50884.sqlite"
+    },
+    {
+     "q": 219,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 220,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 233,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 234,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 235,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 236,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 237,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 238,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 239,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 240,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 241,
+     "db": "flight_2",
+     "failed_on": "flight_2v50819.sqlite"
+    },
+    {
+     "q": 277,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 278,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 283,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 284,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5081.sqlite"
+    },
+    {
+     "q": 287,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 288,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 293,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 322,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 326,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 335,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv515nightpatch8.sqlite"
+    },
+    {
+     "q": 345,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 346,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 362,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 373,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 374,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 391,
+     "db": "course_teach",
+     "failed_on": "course_teachv5081.sqlite"
+    },
+    {
+     "q": 405,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 406,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 407,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 408,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 485,
+     "db": "wta_1",
+     "failed_on": "wta_1v50815.sqlite"
+    },
+    {
+     "q": 501,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5083735.sqlite"
+    },
+    {
+     "q": 505,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5083735.sqlite"
+    },
+    {
+     "q": 512,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50821.sqlite"
+    },
+    {
+     "q": 521,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 522,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 540,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50812.sqlite"
+    },
+    {
+     "q": 562,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 633,
+     "db": "tvshow",
+     "failed_on": "tvshowv5081.sqlite"
+    },
+    {
+     "q": 634,
+     "db": "tvshow",
+     "failed_on": "tvshowv5081.sqlite"
+    },
+    {
+     "q": 636,
+     "db": "tvshow",
+     "failed_on": "tvshowv5080.sqlite"
+    },
+    {
+     "q": 638,
+     "db": "tvshow",
+     "failed_on": "tvshowv5081.sqlite"
+    },
+    {
+     "q": 665,
+     "db": "poker_player",
+     "failed_on": "poker_playerv5080.sqlite"
+    },
+    {
+     "q": 667,
+     "db": "poker_player",
+     "failed_on": "poker_playerv5080.sqlite"
+    },
+    {
+     "q": 668,
+     "db": "poker_player",
+     "failed_on": "poker_playerv5080.sqlite"
+    },
+    {
+     "q": 720,
+     "db": "world_1",
+     "failed_on": "world_1v5086.sqlite"
+    },
+    {
+     "q": 743,
+     "db": "world_1",
+     "failed_on": "world_1v5082.sqlite"
+    },
+    {
+     "q": 744,
+     "db": "world_1",
+     "failed_on": "world_1v5081.sqlite"
+    },
+    {
+     "q": 756,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 764,
+     "db": "world_1",
+     "failed_on": "world_1v50816.sqlite"
+    },
+    {
+     "q": 765,
+     "db": "world_1",
+     "failed_on": "world_1v50816.sqlite"
+    },
+    {
+     "q": 766,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 767,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 842,
+     "db": "orchestra",
+     "failed_on": "orchestrav5080.sqlite"
+    },
+    {
+     "q": 843,
+     "db": "orchestra",
+     "failed_on": "orchestrav5080.sqlite"
+    },
+    {
+     "q": 886,
+     "db": "network_1",
+     "failed_on": "network_1v5081.sqlite"
+    },
+    {
+     "q": 890,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 891,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 896,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 900,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 901,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 912,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 930,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 931,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 936,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 940,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv508557.sqlite"
+    },
+    {
+     "q": 941,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv508557.sqlite"
+    },
+    {
+     "q": 976,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5081.sqlite"
+    },
+    {
+     "q": 977,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5081.sqlite"
+    },
+    {
+     "q": 1022,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    },
+    {
+     "q": 1024,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    },
+    {
+     "q": 1025,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    }
+   ]
+  },
+  "GPT4Turbo": {
+   "EX": 0.723404255319149,
+   "TS": 0.6470019342359767,
+   "lucky": 79,
+   "EX_pass": 748,
+   "lucky_share_of_EX_ci95": [
+    0.10561497326203209,
+    0.08556850659893289,
+    0.1296917290677288
+   ],
+   "lucky_cases": [
+    {
+     "q": 23,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 31,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 32,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 33,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 34,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 41,
+     "db": "concert_singer",
+     "failed_on": "concert_singerv515nightpatch9.sqlite"
+    },
+    {
+     "q": 42,
+     "db": "concert_singer",
+     "failed_on": "concert_singerv515nightpatch9.sqlite"
+    },
+    {
+     "q": 47,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 48,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 52,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 59,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 60,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 68,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 75,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 89,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 90,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 100,
+     "db": "car_1",
+     "failed_on": "car_1v5083735.sqlite"
+    },
+    {
+     "q": 109,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 138,
+     "db": "car_1",
+     "failed_on": "car_1v50811.sqlite"
+    },
+    {
+     "q": 151,
+     "db": "car_1",
+     "failed_on": "car_1v50811.sqlite"
+    },
+    {
+     "q": 154,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 158,
+     "db": "car_1",
+     "failed_on": "car_1v50811.sqlite"
+    },
+    {
+     "q": 173,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 174,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 208,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 210,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 212,
+     "db": "flight_2",
+     "failed_on": "flight_2v50810.sqlite"
+    },
+    {
+     "q": 221,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 222,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 223,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 224,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 233,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 239,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 240,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 252,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 322,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 333,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 334,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 335,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv515nightpatch8.sqlite"
+    },
+    {
+     "q": 345,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 346,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 408,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 426,
+     "db": "museum_visit",
+     "failed_on": "museum_visitv5080.sqlite"
+    },
+    {
+     "q": 483,
+     "db": "wta_1",
+     "failed_on": "wta_1v5083.sqlite"
+    },
+    {
+     "q": 484,
+     "db": "wta_1",
+     "failed_on": "wta_1v5083.sqlite"
+    },
+    {
+     "q": 485,
+     "db": "wta_1",
+     "failed_on": "wta_1v5085.sqlite"
+    },
+    {
+     "q": 486,
+     "db": "wta_1",
+     "failed_on": "wta_1v5085.sqlite"
+    },
+    {
+     "q": 487,
+     "db": "wta_1",
+     "failed_on": "wta_1v5080.sqlite"
+    },
+    {
+     "q": 498,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5080.sqlite"
+    },
+    {
+     "q": 501,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5083735.sqlite"
+    },
+    {
+     "q": 538,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 545,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 549,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50817.sqlite"
+    },
+    {
+     "q": 550,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50817.sqlite"
+    },
+    {
+     "q": 609,
+     "db": "tvshow",
+     "failed_on": "tvshowv515patch3.sqlite"
+    },
+    {
+     "q": 610,
+     "db": "tvshow",
+     "failed_on": "tvshowv515patch3.sqlite"
+    },
+    {
+     "q": 633,
+     "db": "tvshow",
+     "failed_on": "tvshowv515nightpatch2.sqlite"
+    },
+    {
+     "q": 638,
+     "db": "tvshow",
+     "failed_on": "tvshowv5081.sqlite"
+    },
+    {
+     "q": 712,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 713,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 736,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 738,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 739,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 744,
+     "db": "world_1",
+     "failed_on": "world_1v5081.sqlite"
+    },
+    {
+     "q": 764,
+     "db": "world_1",
+     "failed_on": "world_1v50816.sqlite"
+    },
+    {
+     "q": 765,
+     "db": "world_1",
+     "failed_on": "world_1v50816.sqlite"
+    },
+    {
+     "q": 766,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 792,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 842,
+     "db": "orchestra",
+     "failed_on": "orchestrav5080.sqlite"
+    },
+    {
+     "q": 843,
+     "db": "orchestra",
+     "failed_on": "orchestrav5080.sqlite"
+    },
+    {
+     "q": 891,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 897,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 900,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 901,
+     "db": "network_1",
+     "failed_on": "network_1v50810.sqlite"
+    },
+    {
+     "q": 909,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 958,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5083735.sqlite"
+    },
+    {
+     "q": 1022,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    },
+    {
+     "q": 1023,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    },
+    {
+     "q": 1031,
+     "db": "real_estate_properties",
+     "failed_on": "real_estate_propertiesv5080.sqlite"
+    }
+   ]
+  },
+  "Graphix": {
+   "EX": 0.7988394584139265,
+   "TS": 0.7340425531914894,
+   "lucky": 67,
+   "EX_pass": 826,
+   "lucky_share_of_EX_ci95": [
+    0.0811138014527845,
+    0.06437667701270816,
+    0.10172924006833475
+   ],
+   "lucky_cases": [
+    {
+     "q": 24,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 25,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 35,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 36,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 47,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 83,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 84,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 107,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 108,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 154,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 203,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 204,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 206,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 211,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 212,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 215,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 219,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 221,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 223,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 224,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 225,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 226,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 233,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 238,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 240,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 241,
+     "db": "flight_2",
+     "failed_on": "flight_2v50819.sqlite"
+    },
+    {
+     "q": 242,
+     "db": "flight_2",
+     "failed_on": "flight_2v50819.sqlite"
+    },
+    {
+     "q": 243,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 247,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 254,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 255,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 256,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 257,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 277,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv515nightpatch4.sqlite"
+    },
+    {
+     "q": 278,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 362,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 407,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 408,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 423,
+     "db": "museum_visit",
+     "failed_on": "museum_visitv5080.sqlite"
+    },
+    {
+     "q": 465,
+     "db": "wta_1",
+     "failed_on": "wta_1v5080.sqlite"
+    },
+    {
+     "q": 466,
+     "db": "wta_1",
+     "failed_on": "wta_1v5080.sqlite"
+    },
+    {
+     "q": 483,
+     "db": "wta_1",
+     "failed_on": "wta_1v5083.sqlite"
+    },
+    {
+     "q": 484,
+     "db": "wta_1",
+     "failed_on": "wta_1v5083.sqlite"
+    },
+    {
+     "q": 488,
+     "db": "wta_1",
+     "failed_on": "wta_1v5080.sqlite"
+    },
+    {
+     "q": 501,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5083735.sqlite"
+    },
+    {
+     "q": 521,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 522,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 555,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50812.sqlite"
+    },
+    {
+     "q": 556,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv50812.sqlite"
+    },
+    {
+     "q": 557,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 558,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 766,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 767,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 792,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 843,
+     "db": "orchestra",
+     "failed_on": "orchestrav5080.sqlite"
+    },
+    {
+     "q": 896,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 897,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 926,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 927,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 934,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 958,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5083735.sqlite"
+    },
+    {
+     "q": 959,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5083735.sqlite"
+    },
+    {
+     "q": 990,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 991,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 992,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 1022,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    },
+    {
+     "q": 1023,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    }
+   ]
+  },
+  "RASAT+PICARD": {
+   "EX": 0.7649903288201161,
+   "TS": 0.7011605415860735,
+   "lucky": 66,
+   "EX_pass": 791,
+   "lucky_share_of_EX_ci95": [
+    0.08343868520859671,
+    0.06612124884765919,
+    0.10478274007290056
+   ],
+   "lucky_cases": [
+    {
+     "q": 24,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 25,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 83,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 84,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 109,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 154,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 173,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 174,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 206,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 209,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 210,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 211,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 212,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 215,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 216,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 219,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 220,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 221,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 224,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 225,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 226,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 228,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 235,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 241,
+     "db": "flight_2",
+     "failed_on": "flight_2v50819.sqlite"
+    },
+    {
+     "q": 242,
+     "db": "flight_2",
+     "failed_on": "flight_2v50819.sqlite"
+    },
+    {
+     "q": 249,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 250,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 253,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 254,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 255,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 256,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 257,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 362,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 408,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 423,
+     "db": "museum_visit",
+     "failed_on": "museum_visitv5080.sqlite"
+    },
+    {
+     "q": 439,
+     "db": "wta_1",
+     "failed_on": "wta_1v5080.sqlite"
+    },
+    {
+     "q": 483,
+     "db": "wta_1",
+     "failed_on": "wta_1v5083.sqlite"
+    },
+    {
+     "q": 484,
+     "db": "wta_1",
+     "failed_on": "wta_1v5083.sqlite"
+    },
+    {
+     "q": 488,
+     "db": "wta_1",
+     "failed_on": "wta_1v5080.sqlite"
+    },
+    {
+     "q": 501,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5080.sqlite"
+    },
+    {
+     "q": 505,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5083735.sqlite"
+    },
+    {
+     "q": 521,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 522,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 543,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 557,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 558,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 571,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 581,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081467.sqlite"
+    },
+    {
+     "q": 691,
+     "db": "voter_1",
+     "failed_on": "voter_1v5083.sqlite"
+    },
+    {
+     "q": 709,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 736,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 737,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 792,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 793,
+     "db": "world_1",
+     "failed_on": "world_1v5080.sqlite"
+    },
+    {
+     "q": 868,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 896,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 897,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 910,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 911,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 934,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 935,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 990,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 991,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 993,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5081.sqlite"
+    },
+    {
+     "q": 1022,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    },
+    {
+     "q": 1023,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    }
+   ]
+  },
+  "RESDSQL": {
+   "EX": 0.8259187620889749,
+   "TS": 0.758220502901354,
+   "lucky": 70,
+   "EX_pass": 854,
+   "lucky_share_of_EX_ci95": [
+    0.08196721311475409,
+    0.06538704636423338,
+    0.1022914621156538
+   ],
+   "lucky_cases": [
+    {
+     "q": 18,
+     "db": "concert_singer",
+     "failed_on": "concert_singerv5080.sqlite"
+    },
+    {
+     "q": 19,
+     "db": "concert_singer",
+     "failed_on": "concert_singerv5080.sqlite"
+    },
+    {
+     "q": 24,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 35,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 36,
+     "db": "concert_singer",
+     "failed_on": "concert_singertest0.sqlite"
+    },
+    {
+     "q": 47,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 65,
+     "db": "pets_1",
+     "failed_on": "pets_1v5080.sqlite"
+    },
+    {
+     "q": 107,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 109,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 131,
+     "db": "car_1",
+     "failed_on": "car_1v5081529.sqlite"
+    },
+    {
+     "q": 141,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 154,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 173,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 174,
+     "db": "car_1",
+     "failed_on": "car_1v5080.sqlite"
+    },
+    {
+     "q": 206,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 207,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 208,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 211,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 212,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 215,
+     "db": "flight_2",
+     "failed_on": "flight_2v5086.sqlite"
+    },
+    {
+     "q": 216,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 219,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 220,
+     "db": "flight_2",
+     "failed_on": "flight_2v50814.sqlite"
+    },
+    {
+     "q": 223,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 224,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 225,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 226,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 227,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 228,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 231,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 235,
+     "db": "flight_2",
+     "failed_on": "flight_2v5081.sqlite"
+    },
+    {
+     "q": 241,
+     "db": "flight_2",
+     "failed_on": "flight_2v50819.sqlite"
+    },
+    {
+     "q": 242,
+     "db": "flight_2",
+     "failed_on": "flight_2v50819.sqlite"
+    },
+    {
+     "q": 247,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 251,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 252,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 257,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 258,
+     "db": "flight_2",
+     "failed_on": "flight_2v5080.sqlite"
+    },
+    {
+     "q": 287,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 288,
+     "db": "employee_hire_evaluation",
+     "failed_on": "employee_hire_evaluationv5080.sqlite"
+    },
+    {
+     "q": 362,
+     "db": "cre_Doc_Template_Mgt",
+     "failed_on": "cre_Doc_Template_Mgtv5080.sqlite"
+    },
+    {
+     "q": 405,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 407,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 408,
+     "db": "course_teach",
+     "failed_on": "course_teachv5080.sqlite"
+    },
+    {
+     "q": 423,
+     "db": "museum_visit",
+     "failed_on": "museum_visitv5080.sqlite"
+    },
+    {
+     "q": 483,
+     "db": "wta_1",
+     "failed_on": "wta_1v5083.sqlite"
+    },
+    {
+     "q": 484,
+     "db": "wta_1",
+     "failed_on": "wta_1v5083.sqlite"
+    },
+    {
+     "q": 488,
+     "db": "wta_1",
+     "failed_on": "wta_1v5080.sqlite"
+    },
+    {
+     "q": 501,
+     "db": "battle_death",
+     "failed_on": "battle_deathv5083735.sqlite"
+    },
+    {
+     "q": 521,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 522,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5081.sqlite"
+    },
+    {
+     "q": 557,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 558,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 561,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 562,
+     "db": "student_transcripts_tracking",
+     "failed_on": "student_transcripts_trackingv5080.sqlite"
+    },
+    {
+     "q": 683,
+     "db": "poker_player",
+     "failed_on": "poker_playerv5080.sqlite"
+    },
+    {
+     "q": 684,
+     "db": "poker_player",
+     "failed_on": "poker_playerv5080.sqlite"
+    },
+    {
+     "q": 691,
+     "db": "voter_1",
+     "failed_on": "voter_1v5083.sqlite"
+    },
+    {
+     "q": 736,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 737,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 738,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 739,
+     "db": "world_1",
+     "failed_on": "world_1v50811.sqlite"
+    },
+    {
+     "q": 892,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 893,
+     "db": "network_1",
+     "failed_on": "network_1v5080.sqlite"
+    },
+    {
+     "q": 990,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 991,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 993,
+     "db": "dog_kennels",
+     "failed_on": "dog_kennelsv5080.sqlite"
+    },
+    {
+     "q": 1022,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    },
+    {
+     "q": 1023,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    },
+    {
+     "q": 1024,
+     "db": "singer",
+     "failed_on": "singerv5080.sqlite"
+    }
+   ]
+  }
+ }
+}

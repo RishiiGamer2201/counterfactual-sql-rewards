@@ -1,0 +1,32 @@
+# environments / caches (all regenerable)
+.venv/
+.venv-train/
+.cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.secrets.env
+
+# generated data (rebuild with the commands in README.md) and third-party repos
+data/
+data_leaky/
+vendor/
+runs/
+results/_selfcheck_*
+
+# Windows download metadata
+*:Zone.Identifier
+*.jpeg
+external/
+
+# LaTeX build files (paper/main.pdf stays committed)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/build.log
