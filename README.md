@@ -1,6 +1,6 @@
 # Counterfactual-database rewards for text-to-SQL RL
 
-Code, results and paper for **Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL** (Amazon Trusted AI Symposium 2027 submission). Paper: [paper/main.pdf](paper/main.pdf). Adapters, data and demo: [hf.co/counterfactual-sql](https://huggingface.co/counterfactual-sql).
+Code, results and paper for **Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL** (Amazon Trusted AI Symposium 2027 submission). Paper: [arXiv:2611.34363](https://arxiv.org/abs/2611.34363) (source and PDF in [paper/](paper/main.pdf)). Adapters, data and demo: [hf.co/counterfactual-sql](https://huggingface.co/counterfactual-sql).
 
 > RL for text-to-SQL agents usually pays a query when its result matches the reference on one database, but a wrong query can match by luck when the data lack the rows that expose its bug. We study a counterfactual-database (CF) reward that also runs the final query on a few hidden, code-generated copies of the database, some changing the reference answer and some preserving it, and pays only if all results match (strict form) or by the share of copies matched (mean form). On 1,302 synthetic audit questions, the strict form lowers the share of buggy queries paid in full from 29.5% to 16.8% and of reward hacks from 54.1% to 1.9%, rejecting 0 of 2,847 correct queries; copies from a generator blind to our bug families do as well. In a controlled GRPO comparison on a 3.35B model with three seeds per arm, training on the mean form did not improve in-domain accuracy (8.4% vs 11.7%), because the two rewards disagreed on only 5–7% of rollouts; on Spider it gained 1.6 points. One seed reverses both signs, so single-seed reward comparisons mislead.
 
@@ -76,6 +76,20 @@ Spider evaluation needs the test-suite databases of Zhong et al. (2020) in `exte
 ## Layout
 
 `sqlcf/` data generator, templates, counterfactual databases, comparator, rewards, audit, agent tool · `train.py` SFT, GRPO, merge · `evaluate.py` generation and scoring · `scripts/` experiments · `results/` stored outputs · `patches/` AgentTune fixes · `demo/` reward demo page · `paper/` LaTeX source · `tests/` reward tests.
+
+## Citation
+
+```bibtex
+@misc{rai2026singledatabase,
+  title         = {Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-{SQL} {RL}},
+  author        = {Rai, Shreshth and Singh, Rishii Kumar and Aggarwal, Aksh},
+  year          = {2026},
+  eprint        = {2611.34363},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2611.34363}
+}
+```
 
 ## Licence
 

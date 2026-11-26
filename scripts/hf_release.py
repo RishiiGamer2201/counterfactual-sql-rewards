@@ -23,7 +23,8 @@ MODELS = {  # repo: (run dir, e4_eval key, role)
     "tiny-aya-global-sql-grpo-single-db": ("runs/grpo_B", "B", "GRPO, 60 steps, single-database strict execution reward (`R_exec_rex`), seed 0"),
     "tiny-aya-global-sql-grpo-cf": ("runs/grpo_C", "C", "GRPO, 60 steps, counterfactual-database reward, mean form (`R_cf_mean`), seed 0"),
 }
-LINKS = f"""Paper: *Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL*
+ARXIV = "https://arxiv.org/abs/2611.34363"
+LINKS = f"""Paper: [*Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL*]({ARXIV})
 (Shreshth Rai, Rishii Kumar Singh, Aksh Aggarwal; AIMS-DTU, Delhi Technological University).
 [Code and paper]({GITHUB}) · [Data](https://huggingface.co/datasets/{DATA}) · [Demo](https://huggingface.co/spaces/{SPACE}) ·
 Adapters: {" · ".join(f"[{r.removeprefix('tiny-aya-global-sql-')}](https://huggingface.co/{ORG}/{r})" for r in MODELS)}
