@@ -86,7 +86,8 @@ For vLLM, merge first (`python train.py merge --init <adapter> --out merged`), s
 DATA_CARD = f"""---
 license: cc-by-nc-4.0
 language: [en]
-tags: [text-to-sql, reward-modeling, reward-hacking, grpo, counterfactual, sqlite]
+task_categories: [text-generation]
+tags: [text-to-sql, reward-modeling, reward-hacking, grpo, counterfactual, sqlite, synthetic, code]
 pretty_name: Counterfactual-database rewards for text-to-SQL RL
 ---
 # Counterfactual-database rewards: data, results and rollouts
