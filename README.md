@@ -80,14 +80,14 @@ Spider evaluation needs the test-suite databases of Zhong et al. (2020) in `exte
 ## Citation
 
 ```bibtex
-@misc{rai2026singledatabase,
-  title         = {Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-{SQL} {RL}},
-  author        = {Rai, Shreshth and Singh, Rishii Kumar and Aggarwal, Aksh},
-  year          = {2026},
-  eprint        = {2611.34363},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.LG},
-  url           = {https://arxiv.org/abs/2611.34363}
+@misc{rai2026singledatabaserewardshackablecounterfactual,
+      title={Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL}, 
+      author={Shreshth Rai and Rishii Kumar Singh and Aksh Aggarwal},
+      year={2026},
+      eprint={2611.34363},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2611.34363}, 
 }
 ```
 
